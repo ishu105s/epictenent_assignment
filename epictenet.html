@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Epictenet Chatbot Login</title>
+    <!--font and bootstrap-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/epictenet.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Epictenet Chatbot</h1>
+        <h3>Create Account for free</h3>
+    </header>
+
+    <form name="loginForm" class="loginForm" autocomplete="off">
+        <div class="container">
+            <div class="form-group">
+                <div class="errMsg"></div>
+                <div class="flexbox">
+                    <span class="glyphicon glyphicon-user"></span>
+                    <input type="text" class="form-control" placeholder="Name" id="name" name="userName" maxlength="30">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="errMsg"></div>
+                <div class="flexbox">
+                    <span class="glyphicon glyphicon-earphone"></span>
+                    <input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone" maxlength="15">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="errMsg"></div>
+                <div class="flexbox">
+                    <span class="glyphicon glyphicon-envelope"></span>
+                    <input type="email" class="form-control" placeholder="Email" id="email" name="email" maxlength="25">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="errMsg"></div>
+                <div class="flexbox">
+                    <span class="glyphicon glyphicon-lock"></span>
+                    <input type="password" class="form-control" placeholder="Password" id="password" name="password" minlength="8" maxlength="15">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="errMsg"></div>
+                <div class="flexbox">
+                    <span class="glyphicon glyphicon-lock"></span>
+                    <input type="password" class="form-control" placeholder="Confrim Password" id="cPassword"
+                        name="cPassword" minlength="8" maxlength="15">
+                </div>
+            </div>
+            <button class="btn btn-lg" id="submitBtn">Sign Up</button>
+        </div>
+    </form>
+    <script type="text/javascript" src="js/epictenet.js"></script>
+</body>
+
+</html>
